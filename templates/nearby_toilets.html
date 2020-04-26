@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title> Zwinger Task </title>
+    
+    </head>
+
+<body>
+    <h1>Toilets Near me </h1>
+    <h2>Your current location<br></h2>
+    <h2>Lattiude - {{ your_location.lat }}, Longitude - {{ your_location.lon }}</h2>
+    <h2>Location of Toilets </h2>
+        {% for toilet in toilets %}
+            <h2> Lattiude - {{ toilet.lat }}, Longitude - {{ toilet.lon }}</h2>
+            
+            {% endfor %}
+
+        <a href="{% url 'main:index' %}"> Return Back </a>
+</body> 
+
+</html>
