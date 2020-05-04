@@ -1,0 +1,17 @@
+asgiref==3.2.7
+cachetools==4.1.0
+certifi==2020.4.5.1
+chardet==3.0.4
+Django==3.0.5
+django-appconf==1.0.4
+django-geoip==0.5.2.1
+geographiclib==1.50
+geopy==1.21.0
+idna==2.9
+ipinfo==3.0.0
+ipinfo-django==1.1.0
+pytz==2019.3
+requests==2.23.0
+six==1.14.0
+sqlparse==0.3.1
+urllib3==1.25.9
